@@ -1,0 +1,25 @@
+{
+	"name": "has-package-exports",
+	"version": "0.0.0",
+	"description": "Does the current node version have support for the \"exports\" field in package.json?",
+	"main": "no.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/has-package-exports.git"
+	},
+	"keywords": [
+		"package.json",
+		"package",
+		"exports",
+		"field"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/has-package-exports/issues"
+	},
+	"homepage": "https://github.com/ljharb/has-package-exports#readme"
+}
