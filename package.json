@@ -17,7 +17,9 @@
 		]
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "npm run tests-only",
+		"tests-only": "node test",
+		"posttest": "npx aud",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
@@ -38,7 +40,15 @@
 	},
 	"homepage": "https://github.com/ljharb/has-package-exports#readme",
 	"devDependencies": {
-		"auto-changelog": "^1.16.2"
+		"auto-changelog": "^1.16.2",
+		"has-package-exports": "file:.",
+		"semver": "^6.3.0",
+		"tape": "^4.13.0"
+	},
+	"greenkeeper": {
+		"ignore": [
+			"semver"
+		]
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
