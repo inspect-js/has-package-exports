@@ -2,7 +2,20 @@
 	"name": "has-package-exports",
 	"version": "0.0.0",
 	"description": "Does the current node version have support for the \"exports\" field in package.json?",
-	"main": "no.js",
+	"main": "no",
+	"browser": {
+		"no": "./browser.js",
+		"yes": "./browser.js"
+	},
+	"exports": {
+		".": [
+			{
+				"default": "./yes.js",
+				"browser": "./browser.js"
+			},
+			"./yes.js"
+		]
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"version": "auto-changelog && git add CHANGELOG.md",
