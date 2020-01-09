@@ -17,6 +17,7 @@
 		]
 	},
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"lint": "eslint .",
 		"pretest": "npm run lint",
 		"test": "npm run tests-only",
@@ -46,6 +47,7 @@
 		"auto-changelog": "^1.16.2",
 		"eslint": "^6.8.0",
 		"has-package-exports": "file:.",
+		"safe-publish-latest": "^1.1.4",
 		"semver": "^6.3.0",
 		"tape": "^4.13.0"
 	},
