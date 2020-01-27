@@ -46,13 +46,13 @@
   },
   "homepage": "https://github.com/ljharb/has-package-exports#readme",
   "devDependencies": {
-    "@ljharb/eslint-config": "^15.1.0",
+    "@ljharb/eslint-config": "^16.0.0",
     "auto-changelog": "^1.16.2",
     "eslint": "^6.8.0",
     "has-package-exports": "file:.",
     "safe-publish-latest": "^1.1.4",
     "semver": "^6.3.0",
-    "tape": "^5.0.0-next.3"
+    "tape": "^5.0.0-next.4"
   },
   "greenkeeper": {
     "ignore": [
