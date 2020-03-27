@@ -10,3 +10,6 @@ import:
 matrix:
   allow_failures:
     - env: COVERAGE=true # temporarily allow this to fail
+  include:
+    - node_js: "12.16.0" # this node version incorrectly shows the experimental warning
+      env: TEST=true

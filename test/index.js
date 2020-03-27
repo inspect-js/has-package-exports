@@ -16,7 +16,7 @@ test('has-package-exports', function (t) {
 		var res = spawnSync('node', ['test'], {
 			env: { PATH: process.env.PATH, RECURSION: 'recursion' }
 		});
-		if (semver.satisfies(process.version, '^13.7 || =12.16.0')) {
+		if (semver.satisfies(process.version, '~13.7 || ~13.8 || ~13.9 || =12.16.0')) {
 			st.ok(String(res.stderr), 'stderr has an experimental warning in it');
 		} else {
 			st.equal(String(res.stderr), '', 'stderr is empty');
