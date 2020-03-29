@@ -17,7 +17,7 @@
     ]
   },
   "scripts": {
-    "prepublish": "safe-publish-latest",
+    "prepublish": "!(type safe-publish-latest 2>/dev/null) || safe-publish-latest",
     "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "npm run tests-only",
