@@ -1,6 +1,6 @@
 {
   "name": "has-package-exports",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Does the current node version have support for the \"exports\" field in package.json?",
   "main": "no",
   "browser": {
