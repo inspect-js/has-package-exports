@@ -9,6 +9,9 @@
 			"env": {
 				"browser": true,
 			},
+			"rules": {
+				"id-length": 0,
+			},
 		},
 	]
 }

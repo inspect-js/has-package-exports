@@ -10,10 +10,20 @@
   "exports": {
     ".": [
       {
-        "default": "./yes.js",
-        "browser": "./browser.js"
+        "browser": "./browser.js",
+        "default": "./yes.js"
       },
       "./yes.js"
+    ],
+    "./conditional": [
+      {
+        "browser": "./browser.js",
+        "import": "./yes.js",
+        "require": "./yes.js",
+        "node": "./yes.js",
+        "default": "./no.js"
+      },
+      "./no.js"
     ]
   },
   "scripts": {
