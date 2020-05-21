@@ -20,13 +20,13 @@ Require or import `has-package-exports/conditional` to determine if the current 
 Simply clone the repo, `npm install`, and run `npm test`
 
 [package-url]: https://npmjs.org/package/has-package-exports
-[npm-version-svg]: http://versionbadg.es/ljharb/has-package-exports.svg
-[travis-svg]: https://travis-ci.org/ljharb/has-package-exports.svg
-[travis-url]: https://travis-ci.org/ljharb/has-package-exports
-[deps-svg]: https://david-dm.org/ljharb/has-package-exports.svg
-[deps-url]: https://david-dm.org/ljharb/has-package-exports
-[dev-deps-svg]: https://david-dm.org/ljharb/has-package-exports/dev-status.svg
-[dev-deps-url]: https://david-dm.org/ljharb/has-package-exports#info=devDependencies
+[npm-version-svg]: http://versionbadg.es/inspect-js/has-package-exports.svg
+[travis-svg]: https://travis-ci.org/inspect-js/has-package-exports.svg
+[travis-url]: https://travis-ci.org/inspect-js/has-package-exports
+[deps-svg]: https://david-dm.org/inspect-js/has-package-exports.svg
+[deps-url]: https://david-dm.org/inspect-js/has-package-exports
+[dev-deps-svg]: https://david-dm.org/inspect-js/has-package-exports/dev-status.svg
+[dev-deps-url]: https://david-dm.org/inspect-js/has-package-exports#info=devDependencies
 [npm-badge-png]: https://nodei.co/npm/has-package-exports.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/has-package-exports.svg
 [license-url]: LICENSE
