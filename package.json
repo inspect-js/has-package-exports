@@ -56,10 +56,10 @@
 	},
 	"homepage": "https://github.com/ljharb/has-package-exports#readme",
 	"devDependencies": {
-		"@ljharb/eslint-config": "^16.0.0",
-		"aud": "^1.1.1",
+		"@ljharb/eslint-config": "^17.1.0",
+		"aud": "^1.1.2",
 		"auto-changelog": "^2.0.0",
-		"eslint": "^6.8.0",
+		"eslint": "^7.0.0",
 		"has-package-exports": "file:.",
 		"safe-publish-latest": "^1.1.4",
 		"semver": "^6.3.0",
