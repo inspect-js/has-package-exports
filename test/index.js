@@ -8,7 +8,7 @@ var hasConditionalPackageExports = require('has-package-exports/conditional');
 var spawnSync = typeof window === 'undefined' && require('child_process').spawnSync;
 
 test('has-package-exports', function (t) {
-	var expected = typeof window === 'undefined' ? semver.satisfies(process.version, '>= 13') : null;
+	var expected = typeof window === 'undefined' ? semver.satisfies(process.version, '^12.17.0 || >= 13') : null;
 	t.equal(hasPackageExports, expected, 'module exports expected value: ' + expected);
 
 	t.test('experimental warning', { skip: !spawnSync || process.env.RECURSION }, function (st) {
@@ -24,7 +24,7 @@ test('has-package-exports', function (t) {
 		}
 	});
 
-	var expectedConditional = typeof window === 'undefined' ? semver.satisfies(process.version, '>= 13.7') : null;
+	var expectedConditional = typeof window === 'undefined' ? semver.satisfies(process.version, '^12.17.0 || >= 13.7') : null;
 	t.equal(hasConditionalPackageExports, expectedConditional, './conditional entrypoint exports expected value: ' + expectedConditional);
 
 	t.end();
