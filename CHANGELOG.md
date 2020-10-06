@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.2.0](https://github.com/inspect-js/has-package-exports/compare/v1.1.0...v1.2.0) - 2020-10-06
+
+### Commits
+
+- [meta] fix package.json indentation [`b5d259a`](https://github.com/inspect-js/has-package-exports/commit/b5d259a75466030b5a63fd4d7fc7ec6a7143281c)
+- [Dev Deps] update `auto-changelog`, `eslint` [`c20a4d1`](https://github.com/inspect-js/has-package-exports/commit/c20a4d14efba2531e62a8208b1341412777dce86)
+- [New] add `./pattern` import for detecting pattern exports support [`c3cf0ba`](https://github.com/inspect-js/has-package-exports/commit/c3cf0ba6d15a2a5a7f7cf235b1fb9ca0ac921ddf)
+- [meta] transfer repo to inspect-js [`af2413b`](https://github.com/inspect-js/has-package-exports/commit/af2413bd7a421212bb073900ea8168bcb4ab087e)
+- [actions] add "Allow Edits" workflow [`e54ba12`](https://github.com/inspect-js/has-package-exports/commit/e54ba12553e93bbbfb24ca55336af8ed9814daa8)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud` [`e7606fc`](https://github.com/inspect-js/has-package-exports/commit/e7606fc6cc89cad0c15b0228eca89d4458a717b7)
+- [Dev Deps] update `eslint`, `tape` [`fe7c62c`](https://github.com/inspect-js/has-package-exports/commit/fe7c62ce28006a4193f6ca0828d878b953ce87bb)
+- [Tests] `node` `v12.17` supports package exports [`5b31cc2`](https://github.com/inspect-js/has-package-exports/commit/5b31cc2af60a795faeb279c19807771572bb8b98)
+- [actions] switch Automatic Rebase workflow to `pull_request_target` event [`f5301e8`](https://github.com/inspect-js/has-package-exports/commit/f5301e80091fa912fdd986adcad9a345ca7324e6)
+
 ## [v1.1.0](https://github.com/inspect-js/has-package-exports/compare/v1.0.0...v1.1.0) - 2020-05-10
 
 ### Commits
