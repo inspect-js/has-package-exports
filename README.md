@@ -14,7 +14,9 @@ At the time of this writing, node v13+ has support for the ["exports" field in p
 
 This library exports `true` if the current node version supports it, `false` if it does not, and `null` if it's in a browser.
 
-Require or import `has-package-exports/conditional` to determine if the current environment supports conditional exports (as of this writing, node v13.7+).
+Require or import `has-package-exports/conditional` to determine if the current environment supports conditional exports (as of this writing, node v12.17+ and v13.7+).
+
+Require or import `has-package-exports/pattern` to determine if the current environment supports exports patterns (as of this writing, node v14.13+).
 
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`

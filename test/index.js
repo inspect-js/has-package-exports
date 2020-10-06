@@ -4,6 +4,7 @@ var test = require('tape');
 var semver = require('semver');
 var hasPackageExports = require('has-package-exports');
 var hasConditionalPackageExports = require('has-package-exports/conditional');
+var hasPackageExportPatterns = require('has-package-exports/pattern');
 // eslint-disable-next-line global-require
 var spawnSync = typeof window === 'undefined' && require('child_process').spawnSync;
 
@@ -26,6 +27,9 @@ test('has-package-exports', function (t) {
 
 	var expectedConditional = typeof window === 'undefined' ? semver.satisfies(process.version, '^12.17.0 || >= 13.7') : null;
 	t.equal(hasConditionalPackageExports, expectedConditional, './conditional entrypoint exports expected value: ' + expectedConditional);
+
+	var expectedPattern = typeof window === 'undefined' ? semver.satisfies(process.version, '>= 14.13') : null;
+	t.equal(hasPackageExportPatterns, expectedPattern, './star entrypoint exports expected value: ' + expectedPattern);
 
 	t.end();
 });

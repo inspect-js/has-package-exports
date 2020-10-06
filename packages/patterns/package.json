@@ -1,0 +1,10 @@
+{
+	"name": "@ljharb/patterns",
+	"version": "0.0.0",
+	"private": "true",
+	"main": "./no.js",
+	"exports": {
+		".": "./no.js",
+		"./patterns/*": "./patterns/*ed.js"
+	}
+}
