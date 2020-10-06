@@ -10,7 +10,7 @@
 
 Does the current node version have support for the "exports" field in package.json?
 
-At the time of this writing, node v13+ has support for the ["exports" field in package.json](https://nodejs.org/api/esm.html#esm_package_exports).
+At the time of this writing, node v12.17+ and v13+ has support for the ["exports" field in package.json](https://nodejs.org/api/packages.html#packages_exports).
 
 This library exports `true` if the current node version supports it, `false` if it does not, and `null` if it's in a browser.
 
