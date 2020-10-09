@@ -60,7 +60,7 @@
 		"@ljharb/has-package-exports-patterns": "0.0.0"
 	},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.1.0",
+		"@ljharb/eslint-config": "^17.2.0",
 		"aud": "^1.1.2",
 		"auto-changelog": "^2.2.1",
 		"eslint": "^7.10.0",
