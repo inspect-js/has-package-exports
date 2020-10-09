@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.2.1](https://github.com/inspect-js/has-package-exports/compare/v1.2.0...v1.2.1) - 2020-10-08
+
+### Commits
+
+- [Fix] publish subpackage as a real package, since npm &lt; 7 breaks with published file deps [`6599568`](https://github.com/inspect-js/has-package-exports/commit/65995682e44bf89adff04128d84eb5c5db51d38c)
+- [Tests] always test `node` `v12.17` [`625861c`](https://github.com/inspect-js/has-package-exports/commit/625861c5a06deaa4a8be17791748a5b6cd86f0bb)
+- [Dev Deps] update `@ljharb/eslint-config` [`3a13a60`](https://github.com/inspect-js/has-package-exports/commit/3a13a60702c3b21b3ccaa8e5a42420a53df71da6)
+- [readme] fix node docs URL [`15d2d48`](https://github.com/inspect-js/has-package-exports/commit/15d2d48c8e81ce9f69c102915c62f7b1baae7956)
+
 ## [v1.2.0](https://github.com/inspect-js/has-package-exports/compare/v1.1.0...v1.2.0) - 2020-10-06
 
 ### Commits
