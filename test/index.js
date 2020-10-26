@@ -29,7 +29,7 @@ test('has-package-exports', function (t) {
 	t.equal(hasConditionalPackageExports, expectedConditional, './conditional entrypoint exports expected value: ' + expectedConditional);
 
 	var expectedPattern = typeof window === 'undefined' ? semver.satisfies(process.version, '>= 14.13') : null;
-	t.equal(hasPackageExportPatterns, expectedPattern, './star entrypoint exports expected value: ' + expectedPattern);
+	t.equal(hasPackageExportPatterns, expectedPattern, './pattern entrypoint exports expected value: ' + expectedPattern);
 
 	t.end();
 });
