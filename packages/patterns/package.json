@@ -1,6 +1,6 @@
 {
 	"name": "@ljharb/has-package-exports-patterns",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"main": "./no.js",
 	"exports": {
 		".": "./no.js",
