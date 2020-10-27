@@ -57,7 +57,7 @@
 	},
 	"homepage": "https://github.com/inspect-js/has-package-exports#readme",
 	"dependencies": {
-		"@ljharb/has-package-exports-patterns": "0.0.0"
+		"@ljharb/has-package-exports-patterns": "0.0.1"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^17.2.0",
