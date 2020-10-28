@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.2.2](https://github.com/inspect-js/has-package-exports/compare/v1.2.1...v1.2.2) - 2020-10-27
+
+### Commits
+
+- [meta] don’t bother publishing subpackages or .github stuff [`3b8afe3`](https://github.com/inspect-js/has-package-exports/commit/3b8afe3c62c978af27e8d6fd94e5828ace885588)
+- [Tests] remove hacks that have been upstreamed to shared config; add explicit 14.14 [`20fdc08`](https://github.com/inspect-js/has-package-exports/commit/20fdc0841ca258b8c407e96260a121354b617a37)
+- [@ljharb/has-package-exports-patterns] v0.0.1 [`1e74b64`](https://github.com/inspect-js/has-package-exports/commit/1e74b647fa1a778b42e891015bda98d8794aa315)
+- [Dev Deps] update `eslint` [`98b28e8`](https://github.com/inspect-js/has-package-exports/commit/98b28e8846714b6a6e4ca1aab12b4abd0f240f75)
+- [@ljharb/has-package-exports-patterns] [fix] add missing "main" file [`4b88614`](https://github.com/inspect-js/has-package-exports/commit/4b886149e4ce78b28a713399bdba342be9eda3ae)
+- [Tests] more fixing of npm issues [`e59a024`](https://github.com/inspect-js/has-package-exports/commit/e59a024c15a12f22eafe29179de5b0a03d6f8bc0)
+- [Deps] update `@ljharb/has-package-exports-patterns` [`5138fab`](https://github.com/inspect-js/has-package-exports/commit/5138fab6a072b56d045b8805fc0dd71dff7f6398)
+- [meta] silence more prepublish output [`19c5574`](https://github.com/inspect-js/has-package-exports/commit/19c5574bf1c9d8840923cd77506a08987c8bc905)
+
 ## [v1.2.1](https://github.com/inspect-js/has-package-exports/compare/v1.2.0...v1.2.1) - 2020-10-08
 
 ### Commits
