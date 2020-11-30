@@ -16,7 +16,7 @@ This library exports `true` if the current node version supports it, `false` if 
 
 Require or import `has-package-exports/conditional` to determine if the current environment supports conditional exports (as of this writing, node v12.17+ and v13.7+).
 
-Require or import `has-package-exports/pattern` to determine if the current environment supports exports patterns (as of this writing, node v14.13+).
+Require or import `has-package-exports/pattern` to determine if the current environment supports exports patterns (as of this writing, node v12.20+ and v14.13+).
 
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`

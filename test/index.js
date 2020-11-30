@@ -28,7 +28,7 @@ test('has-package-exports', function (t) {
 	var expectedConditional = typeof window === 'undefined' ? semver.satisfies(process.version, '^12.17.0 || >= 13.7') : null;
 	t.equal(hasConditionalPackageExports, expectedConditional, './conditional entrypoint exports expected value: ' + expectedConditional);
 
-	var expectedPattern = typeof window === 'undefined' ? semver.satisfies(process.version, '>= 14.13') : null;
+	var expectedPattern = typeof window === 'undefined' ? semver.satisfies(process.version, '^12.20.0 || >= 14.13') : null;
 	t.equal(hasPackageExportPatterns, expectedPattern, './pattern entrypoint exports expected value: ' + expectedPattern);
 
 	t.end();
