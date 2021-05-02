@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.2.3](https://github.com/inspect-js/has-package-exports/compare/v1.2.2...v1.2.3) - 2021-05-02
+
+### Commits
+
+- [Tests] migrate tests to Github Actions [`092631e`](https://github.com/inspect-js/has-package-exports/commit/092631ee3a96aac9cbeaae9119ce528645e37987)
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`f67d617`](https://github.com/inspect-js/has-package-exports/commit/f67d61728d720294766d6bbea91b78c581883613)
+- [Tests] run `nyc` on all tests [`cfcb368`](https://github.com/inspect-js/has-package-exports/commit/cfcb36871dc291b52f96ed36daf39918488bb60f)
+- [readme] remove travis badge [`e9949ce`](https://github.com/inspect-js/has-package-exports/commit/e9949ce44f82a531507c082cf39f41defafa6fb1)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `tape` [`a8377c4`](https://github.com/inspect-js/has-package-exports/commit/a8377c4a85608c9290068008c74bb76fc582eed9)
+- [actions] update workflows [`8fdcfe6`](https://github.com/inspect-js/has-package-exports/commit/8fdcfe6b5d9e72005bc7645474eca8ff4a140a0c)
+- [Docs] add pattern support in node `v12.20+` [`bc38da1`](https://github.com/inspect-js/has-package-exports/commit/bc38da1d9f7480e90f8ec4e4cad8c227d1e30224)
+- [meta] use `prepublishOnly` script for npm 7+ [`097be86`](https://github.com/inspect-js/has-package-exports/commit/097be862c18c7e59cf630cb13333d4551fa13d52)
+
 ## [v1.2.2](https://github.com/inspect-js/has-package-exports/compare/v1.2.1...v1.2.2) - 2020-10-27
 
 ### Commits
