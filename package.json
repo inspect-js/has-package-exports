@@ -28,7 +28,7 @@
 		"./pattern": "./pattern.js"
 	},
 	"scripts": {
-		"prepublish": "not-in-publish || npm run prepublishOnly",
+		"prepublish": "!(type safe-publish-latest 2>&1 >/dev/null) || not-in-publish || npm run prepublishOnly",
 		"prepublishOnly": "safe-publish-latest",
 		"lint": "eslint .",
 		"pretest": "npm run lint",
@@ -66,7 +66,6 @@
 		"auto-changelog": "^2.2.1",
 		"eslint": "^7.25.0",
 		"has-package-exports": "file:.",
-		"in-publish": "^2.0.1",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^1.1.4",
 		"semver": "^6.3.0",
