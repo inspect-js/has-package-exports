@@ -28,7 +28,8 @@
 		"./pattern": "./pattern.js"
 	},
 	"scripts": {
-		"prepublish": "!(type safe-publish-latest 2>&1 >/dev/null) || safe-publish-latest",
+		"prepublish": "not-in-publish || npm run prepublishOnly",
+		"prepublishOnly": "safe-publish-latest",
 		"lint": "eslint .",
 		"pretest": "npm run lint",
 		"test": "npm run tests-only",
