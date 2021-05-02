@@ -1,6 +1,5 @@
 # has-package-exports <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
-[![Build Status][travis-svg]][travis-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -22,15 +21,13 @@ Require or import `has-package-exports/pattern` to determine if the current envi
 Simply clone the repo, `npm install`, and run `npm test`
 
 [package-url]: https://npmjs.org/package/has-package-exports
-[npm-version-svg]: http://versionbadg.es/inspect-js/has-package-exports.svg
-[travis-svg]: https://travis-ci.org/inspect-js/has-package-exports.svg
-[travis-url]: https://travis-ci.org/inspect-js/has-package-exports
+[npm-version-svg]: https://versionbadg.es/inspect-js/has-package-exports.svg
 [deps-svg]: https://david-dm.org/inspect-js/has-package-exports.svg
 [deps-url]: https://david-dm.org/inspect-js/has-package-exports
 [dev-deps-svg]: https://david-dm.org/inspect-js/has-package-exports/dev-status.svg
 [dev-deps-url]: https://david-dm.org/inspect-js/has-package-exports#info=devDependencies
 [npm-badge-png]: https://nodei.co/npm/has-package-exports.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/has-package-exports.svg
+[license-image]: https://img.shields.io/npm/l/has-package-exports.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/has-package-exports.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=has-package-exports
+[downloads-image]: https://img.shields.io/npm/dm/has-package-exports.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=has-package-exports
