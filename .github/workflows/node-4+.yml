@@ -21,6 +21,7 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         node-version: ${{ fromJson(needs.matrix.outputs.latest) }}
         include:
@@ -30,11 +31,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: ljharb/actions/node/run@main
-        name: 'npm install && npm run tests-only'
+      - uses: ljharb/actions/node/install@main
+        name: 'nvm install ${{ matrix.node-version }} && npm install'
         with:
           node-version: ${{ matrix.node-version }}
-          command: 'tests-only'
+      - run: npm run tests-only
+      - uses: codecov/codecov-action@v1
+
   minors:
     needs: [matrix, latest]
     name: 'non-latest minors'
@@ -43,15 +46,22 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         node-version: ${{ fromJson(needs.matrix.outputs.minors) }}
+        exclude:
+          - node-version: "14.14" # first 14.x with patterns
+          - node-version: "12.17" # first 12.x with ESM
+          - node-version: '12.16.0' # this node version incorrectly shows the experimental warning
 
     steps:
       - uses: actions/checkout@v2
-      - uses: ljharb/actions/node/run@main
+      - uses: ljharb/actions/node/install@main
+        name: 'nvm install ${{ matrix.node-version }} && npm install'
         with:
           node-version: ${{ matrix.node-version }}
-          command: 'tests-only'
+      - run: npm run tests-only
+      - uses: codecov/codecov-action@v1
 
   node:
     name: 'node 4+'
