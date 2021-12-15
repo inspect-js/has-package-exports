@@ -30,7 +30,7 @@
 	"scripts": {
 		"prepublish": "!(type safe-publish-latest 2>&1 >/dev/null) || not-in-publish || npm run prepublishOnly",
 		"prepublishOnly": "safe-publish-latest",
-		"lint": "eslint .",
+		"lint": "eslint --ext=js,mjs .",
 		"pretest": "npm run lint",
 		"test": "npm run tests-only",
 		"tests-only": "nyc tape 'test/**/*.js'",
@@ -61,15 +61,15 @@
 		"@ljharb/has-package-exports-patterns": "0.0.1"
 	},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^18.0.0",
+		"@ljharb/eslint-config": "^20.1.0",
 		"aud": "^1.1.5",
 		"auto-changelog": "^2.3.0",
-		"eslint": "^7.32.0",
+		"eslint": "^8.4.1",
 		"has-package-exports": "file:.",
 		"nyc": "^10.3.2",
-		"safe-publish-latest": "^1.1.5",
+		"safe-publish-latest": "^2.0.0",
 		"semver": "^6.3.0",
-		"tape": "^5.3.1"
+		"tape": "^5.3.2"
 	},
 	"greenkeeper": {
 		"ignore": [
