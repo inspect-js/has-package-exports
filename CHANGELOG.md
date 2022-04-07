@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.3.0](https://github.com/inspect-js/has-package-exports/compare/v1.2.3...v1.3.0) - 2022-04-07
+
+### Commits
+
+- [actions] reuse common workflows [`37270a0`](https://github.com/inspect-js/has-package-exports/commit/37270a022f12c399149249a1ec4d16c35032bf4a)
+- [New] add `pattern-trailers` detection [`b36a91e`](https://github.com/inspect-js/has-package-exports/commit/b36a91ec6bfb64e65ea05c423670d8999a7c3a96)
+- [actions] update codecov uploader [`bb74650`](https://github.com/inspect-js/has-package-exports/commit/bb746507a4299dfd0daa4ba45d529aa1d329f74f)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `safe-publish-latest`, `tape` [`7e99915`](https://github.com/inspect-js/has-package-exports/commit/7e999150b9a9d4bd9e408f3664b059e0c81e7be2)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`cbfec0f`](https://github.com/inspect-js/has-package-exports/commit/cbfec0fc14677725e1954686014b63ffe9444423)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `auto-changelog`, `safe-publish-latest`, `tape` [`3cf312d`](https://github.com/inspect-js/has-package-exports/commit/3cf312dbcde4773f773fdd28223701b5b08372d7)
+- [@ljharb/has-package-exports-patterns] [new] add pattern-trailers fixtures [`b1089da`](https://github.com/inspect-js/has-package-exports/commit/b1089da7349140201c12f50ff55080e63fae59c8)
+- [meta] handle npm failures in node &lt; 4 [`3e609b2`](https://github.com/inspect-js/has-package-exports/commit/3e609b298ad72ee080241ff1a2fe51951b562bcf)
+- [@ljharb/has-package-exports-patterns] v0.0.2 [`f0f693d`](https://github.com/inspect-js/has-package-exports/commit/f0f693d8e03b9be35d8559df09f9d29cc93f0810)
+- [Dev Deps] add `in-publish`, for npm &lt; 5 [`85cc816`](https://github.com/inspect-js/has-package-exports/commit/85cc8169287de35b0b07978f0e1d3fff201843d3)
+
 ## [v1.2.3](https://github.com/inspect-js/has-package-exports/compare/v1.2.2...v1.2.3) - 2021-05-02
 
 ### Commits
