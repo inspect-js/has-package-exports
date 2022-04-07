@@ -29,7 +29,7 @@
 		"./pattern-trailers": "./pattern-trailers.js"
 	},
 	"scripts": {
-		"prepublish": "!(type safe-publish-latest 2>&1 >/dev/null) || not-in-publish || npm run prepublishOnly",
+		"prepublish": "type not-in-publish >/dev/null 2>&1 && (not-in-publish || npm run prepublishOnly) || true",
 		"prepublishOnly": "safe-publish-latest",
 		"lint": "eslint --ext=js,mjs .",
 		"pretest": "npm run lint",
