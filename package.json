@@ -25,7 +25,8 @@
 			},
 			"./no.js"
 		],
-		"./pattern": "./pattern.js"
+		"./pattern": "./pattern.js",
+		"./pattern-trailers": "./pattern-trailers.js"
 	},
 	"scripts": {
 		"prepublish": "!(type safe-publish-latest 2>&1 >/dev/null) || not-in-publish || npm run prepublishOnly",
@@ -58,7 +59,7 @@
 	},
 	"homepage": "https://github.com/inspect-js/has-package-exports#readme",
 	"dependencies": {
-		"@ljharb/has-package-exports-patterns": "0.0.1"
+		"@ljharb/has-package-exports-patterns": "^0.0.2"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^20.2.3",

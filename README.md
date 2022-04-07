@@ -17,6 +17,8 @@ Require or import `has-package-exports/conditional` to determine if the current 
 
 Require or import `has-package-exports/pattern` to determine if the current environment supports exports patterns (as of this writing, node v12.20+ and v14.13+).
 
+Require or import `has-package-exports/pattern-trailers` to determine if the current environment supports exports pattern trailers (as of this writing, node v14.19+ and v16.9+).
+
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`
 

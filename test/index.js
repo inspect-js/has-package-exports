@@ -5,6 +5,7 @@ var semver = require('semver');
 var hasPackageExports = require('has-package-exports');
 var hasConditionalPackageExports = require('has-package-exports/conditional');
 var hasPackageExportPatterns = require('has-package-exports/pattern');
+var hasPackageExportPatternTrailers = require('has-package-exports/pattern-trailers');
 // eslint-disable-next-line global-require
 var spawnSync = typeof window === 'undefined' && require('child_process').spawnSync;
 
@@ -30,6 +31,9 @@ test('has-package-exports', function (t) {
 
 	var expectedPattern = typeof window === 'undefined' ? semver.satisfies(process.version, '^12.20.0 || >= 14.13') : null;
 	t.equal(hasPackageExportPatterns, expectedPattern, './pattern entrypoint exports expected value: ' + expectedPattern);
+
+	var expectedPatternTrailers = typeof window === 'undefined' ? semver.satisfies(process.version, '^14.19 || >= 16.9') : null;
+	t.equal(hasPackageExportPatternTrailers, expectedPatternTrailers, './pattern-trailers entrypoint exports expected value: ' + expectedPatternTrailers);
 
 	t.end();
 });
