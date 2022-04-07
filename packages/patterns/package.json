@@ -4,7 +4,9 @@
 	"main": "./no.js",
 	"exports": {
 		".": "./no.js",
-		"./patterns/*": "./patterns/*ed.js"
+		"./patterns/*": "./patterns/*ed.js",
+		"./pattern-trailers/*": "./pattern-trailers/*ed.js",
+		"./pattern-trailers/*.js": "./pattern-trailers/*ed.js"
 	},
 	"repository": {
 		"type": "git",
